@@ -55,6 +55,9 @@
   <style>
     html { scroll-behavior: smooth; }
 
+    /* ── Prevent horizontal scroll / sideways page shift on mobile ── */
+    html, body { overflow-x: hidden; max-width: 100%; }
+
     /* ── Custom scrollbar ── */
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: #f5e9cc; }
